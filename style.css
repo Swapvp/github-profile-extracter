@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+    background-color: hsl(0, 0%, 66%, 40%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-container {
+    background-color: cadetblue ;
+    width: 500px;
+    margin: 50px auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.input-container #input_box  {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+
+#input-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 22px;
+    background-color: hsla(0, 76%, 53%, 1);
+    color: white;
+}
+
+#input-btn:hover {
+    background-color: hsla(0, 76%, 53%, 0.7);
+}
+
+.card-container {
+    width: 50%;
+    margin: 50px auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+
+
+}
+
+.left,.right {
+    margin: 0 20px;
+}
+
+
+
+.right p {
+    color: white;
+
+}
+
+.left img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    
+}
+
+.follow div   {
+    background-color: hsl(0, 0%, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 10px;
+
+}
+
+#repos {
+    height: auto;
+}
+
+.repo{
+    display: inline-block;
+    background-color: hsl(0, 0%, 0%, 20%);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    margin:5px;
+    
+}
+
